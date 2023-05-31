@@ -1,0 +1,24 @@
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; /* Ajuste a margem superior conforme desejado */
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 300px;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #cardtitle {
+    font-family: Tahoma, sans-serif;
+    font-size: 22px;
+  }
+
+  #cardsubtitle {
+    font-size: 12px;
+  }
