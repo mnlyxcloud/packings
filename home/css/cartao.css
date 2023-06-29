@@ -1,0 +1,22 @@
+  .cartao-bloco {
+    display: flex;
+    margin-top: -20px; /* margem superior*/
+  }
+  
+  .cartao {
+    max-width: 200px;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #cartaoTitulo {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+  }
+
+  #cartaoSubtitulo {
+    font-size: 12px;
+  }

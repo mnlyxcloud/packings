@@ -1,0 +1,43 @@
+.bt-entrar {
+    position: absolute; /* definir como o elemento sera posicionado */
+    top: 15px;
+    right: 40px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    display: inline-block;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold; /* intensidade da fonte */
+    padding: 10px 20px;
+    letter-spacing: 1px; /* Espaçamento entre as letras */
+    color: #333;
+    border-radius: 4px;
+    margin-top: 30px; 
+    margin-left: 20px;
+  }
+  
+  .bt-entrar:hover {
+    border: none;
+    background-color: #838181;
+    color: #fff; 
+  }
+  
+  .bloco {
+    position: absolute; /* definir como o elemento sera posicionado */
+    top: 10px;
+    left: 40px;
+    width: 105px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    justify-content: center; /* defide como o navgador distribui o espaço entre e ao redor dos itens*/
+    align-items: center; /* como o conteudo dentro do bloco vai ficar */
+    margin-top: 30px; 
+    margin-left: 20px;
+  }
+  
+  .marca {
+    letter-spacing: 4px;
+    font-size: 18px;
+    color: #000000;
+  }

@@ -1,8 +1,0 @@
-.section {
-    opacity: 0;
-    transition: opacity 3.0s ease;
-  }
-  
-  .section.revealed {
-    opacity: 1;
-  }

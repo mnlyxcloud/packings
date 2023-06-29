@@ -1,11 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
   }
   
-  #page1 {
+  #pagina1 {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,30 +12,8 @@ body {
     scroll-snap-align: start;
     background-color: #202020;
   }
-
-  #page2 {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    scroll-snap-align: start;
-    background-color: #32b976;
-  }
   
-  #page3 {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    scroll-snap-align: start;
-    background-color: #333;
-  }
-
-
-  
-  #logoTopRight {
+  #logo {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -45,8 +21,8 @@ body {
     max-height: 100px;
   }
   
-  #pageTitle {
-    margin-top: 320px;
+  #titulo {
+    margin-top: 100px;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 76px;
     color: #fff;
@@ -54,48 +30,19 @@ body {
     text-align: center;
   }
   
-  #pageSubtitle {
+  #subtitulo {
     font-family:'Arial Narrow', Arial, sans;
     font-size: 18px;
     color: #fff;
     text-align: center;
-    line-break: normal;
     margin-bottom: 20px;
   }
   
-  .vertical-text {
+  .texto-v {
     position: absolute;
-    
-    right: 10px;
-    writing-mode: vertical-rl; /* Define a escrita vertical da direita para a esquerda */
-    transform: rotate(180deg); /* Rotaciona o texto em 180 graus */
-    white-space: nowrap; /* Impede a quebra de linha do texto */
-    font-size: 18px; /* Tamanho de fonte do texto vertical */
-    color: #fff; /* Cor do texto */
-    margin-right: 10px; /* Espaçamento à direita do texto vertical */
-  }
 
-  #page2 .topic-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  #page2 .topic {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-  }
-  
-  #page2 .topic i {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  #page2 .topic p {
-    font-size: 14px;
-    text-align: center;
+    right: 10px;
+    transform: rotate(90deg);
+    font-size: 18px;
+    color: #fff;
   }

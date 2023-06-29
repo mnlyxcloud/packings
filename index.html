@@ -1,82 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Scroll Infinito com Animação</title>
-  <!--Estilo do preloader-->
+  <title>Packing 📦</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-  <link rel="stylesheet" href="/home/css/preloader.css">
   <!--Arquivo css das paginas (page1, page2, page3)-->
   <link rel="stylesheet" href="/home/css/indexCSS.css">
-  <!--Arquivo css do scrollbar personalizado.-->
-  <link rel="stylesheet" href="/home/css/scrollbar.css">
-  <!--Arquivo css das animações de section!-->
-  <link rel="stylesheet" href="/home/css/anim_section.css">
   <!--Botões-->
-  <link rel="stylesheet" href="/home/css/btn-entrar.css">
+  <link rel="stylesheet" href="/home/css/bt-entrar.css">
   <!--cards-->
-  <link rel="stylesheet" href="/home/css/card.css">
+  <link rel="stylesheet" href="/home/css/cartao.css">
 </head>
 <body>
-  <div id="preloader">
-    <div id="progress"></div>
-</div>
-<div id="content" style="display: none;"></div>
-  <!--Pagina 1-->
-  <div id="page1" > 
-    <div class="square">
-      <h1 class="square-text">Packing</h1>
+  <div id="pagina1" > 
+    <div class="bloco">
+      <h1 class="marca">Packing</h1>
     </div>
-    <button id="buttonTopLeft"  class="btn-entrar">Conecte-se</button>
-    <h3 class="vertical-text">Social</h3>
-    <h1 id="pageTitle" class="section hidden">Conecte-se, descubra oportunidades</h1>
-    <h2 id="pageSubtitle" class="section">Junte-se à nossa comunidade de jovens talentosos, <br>onde você pode criar amizades e monetizar suas habilidades online.</h2>
+    <button class="bt-entrar" href="login.html">Conecte-se</button>
+    <h3 class="texto-v">Social</h3>
+    <h1 id="titulo">Conecte-se, descubra oportunidades</h1>
+    <h2 id="subtitulo">Junte-se à nossa comunidade de jovens talentosos, <br>onde você pode criar amizades e monetizar suas habilidades online.</h2>
 
-    <div class="card-container">
-      <div class="card section hidden">
-        <h3 id="cardtitle">Quantidade de acessos por mês</h3>
-        <p id="cardsubtitle">1,4k</p>
+    <div class="cartao-bloco">
+      <div class="cartao">
+        <h3 id="cartaoTitulo">Quantidade de acessos por mês</h3>
+        <p id="cartaoSubtitulo">1,4k</p>
       </div>
       
-      <div class="card section hidden">
-        <h3 id="cardtitle">Quantidade de cliques por dia</h3>
-        <p id="cardsubtitle">null</p>
+      <div class="cartao">
+        <h3 id="cartaoTitulo">Quantidade de cliques por dia</h3>
+        <p id="cartaoSubtitulo">null</p>
       </div>
       
-      <div class="card section hidden">
-        <h3 id="cardtitle">Online agora</h3>
-        <p id="cardsubtitle">27</p>
+      <div class="cartao">
+        <h3 id="cartaoTitulo">Online agora</h3>
+        <p id="cartaoSubtitulo">27</p>
       </div>
     </div>
 </div>
-
-  <!--Pagina 2-->
-  <div id="page2"> 
-    <h1 class="section-text">Página 2</h1>
-    <div class="topic-container">
-      <div class="topic">
-        <i class="material-icons">lock</i>
-        <p>Privacidade</p>
-      </div>
-      <div class="topic">
-        <i class="material-icons">remove_red_eye</i>
-        <p>Foco</p>
-      </div>    
-    </div>
-  </div>
-
-  <!--Pagina 3-->
-  <div id="page3"> 
-    <h1 class="section">Página 3</h1>
-    <button class="section">Clique Aqui</button>
-  </div>
-
-  <!--Carregando Scripts!-->
-  <!--Script de voltar ao inicio da pagina-->
-  <script src="/home/scripts/index.js"></script>
-  <!--Script de animações section-->
-  <script src="/home/scripts/index_anim.js"></script>
-  <!--preloader-->
-  <script src="/home/scripts/preloader.js"></script>
 </body>
 </html>
