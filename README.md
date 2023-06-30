@@ -1,2 +1,0 @@
-# packings
-Venda oque quiser!

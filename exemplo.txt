@@ -1,0 +1,16 @@
+    <div class="cartao-bloco">
+      <div class="cartao">
+        <h3 id="cartaoTitulo">Quantidade de acessos por mês</h3>
+        <p id="cartaoSubtitulo">1,4k</p>
+      </div>
+      
+      <div class="cartao">
+        <h3 id="cartaoTitulo">Quantidade de cliques por dia</h3>
+        <p id="cartaoSubtitulo">null</p>
+      </div>
+      
+      <div class="cartao">
+        <h3 id="cartaoTitulo">Online agora</h3>
+        <p id="cartaoSubtitulo">27</p>
+      </div>
+    </div>
