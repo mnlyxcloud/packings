@@ -1,4 +1,20 @@
-#base {
-    height: 200px;
-    width: 200px;
+body {
+    margin: 0%;
+    padding: 0%;
 }
+
+#base {
+    margin-top: 70px; /* Espaçamento superior para compensar a altura do navbar */
+  }
+
+  #topicos {
+    margin-top: 120px; /* Espaçamento superior para compensar a altura do navbar */
+    height: 50px;
+    margin-bottom: 0%;
+  }
+
+  #perfil-hot {
+    padding: 0%;
+    background-color: aqua;
+    height: 900px;
+  }
