@@ -14,3 +14,30 @@
         <p id="cartaoSubtitulo">27</p>
       </div>
     </div>
+
+    <!--
+          <div class="w-auto" style="width: 95px; padding: 1%; height: 50px; background-color: antiquewhite;">
+            <img class="rounded float-start" src="../assets/categorias/estudos.png">
+            <p>Escolares e academicos</p>
+          </div>
+
+          <div class="w-auto" style="width: 95px; padding: 1%; height: 50px; background-color: antiquewhite;">
+            <img class="rounded float-start" src="../assets/categorias/besteirol.png">
+            <p>Besteirol</p> 
+          </div>
+
+          <div class="w-auto" style="width: 95px; padding: 1%; height: 50px; background-color: antiquewhite;">
+            <img class="rounded float-start" src="../assets/categorias/jogos.png">
+            <p>Jogos</p> 
+          </div>
+
+          <div class="w-auto" style="width: 95px; padding: 1%; height: 50px; background-color: antiquewhite;">
+            <img class="rounded float-start" src="../assets/categorias/musicas.png">
+            <p>Musicas</p> 
+          </div>
+
+          <div class="w-auto" style="width: 95px; padding: 1%; height: 50px; background-color: antiquewhite;">
+            <img class="rounded float-start" src="../assets/categorias/outros.png">
+            <p>Outros</p> 
+          </div>
+        -->
