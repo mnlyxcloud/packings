@@ -13,10 +13,13 @@
   }
 
   #cartaoTitulo {
+    margin: 0%;
     font-family: Tahoma, sans-serif;
     font-size: 18px;
   }
 
   #cartaoSubtitulo {
-    font-size: 12px;
+    font-size: 77px;
+    margin: 0%;
+    font-family: 'Trebuchet MS', sans-serif;
   }
